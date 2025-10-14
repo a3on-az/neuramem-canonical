@@ -1,0 +1,14 @@
+{
+  "coherence_index_rho": {
+    "description": "Mean cosine of phase difference between agents",
+    "target": 0.9
+  },
+  "invariance_delta_A": {
+    "description": "Mean alignment delta across paraphrase triplets",
+    "target": 0.3
+  },
+  "ethical_variance_sigma": {
+    "description": "Variance in ethical scoring across domains",
+    "target": 0.1
+  }
+}
